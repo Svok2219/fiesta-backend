@@ -12,7 +12,7 @@ app.get("/", (req, res) => res.send("Hello world! once again"));
 //app.use(express.bodyParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-const { MongoClient, ServerApiVersion } = require('mongodb');
+// const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = "mongodb+srv://shuvokoiri0:XFAbGNBB4n3KKCBn@cluster0.pvp8qg6.mongodb.net/?retryWrites=true&w=majority";
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 
